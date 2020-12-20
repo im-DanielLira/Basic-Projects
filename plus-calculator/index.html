@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="content">
+
+        <h1>
+            +Plus Calculator+
+        </h1>
+    
+        <input type="number" id="first" placeholder="Type a number">
+        +
+        <input type="number" id="second" placeholder="Type a number">
+       
+       <div id="add up">
+
+        <input type="submit" value="Result" onclick="result()">
+
+        <div id="res">
+            0
+        </div>
+
+       </div>
+
+        
+
+    </div>
+
+    <script>
+
+        function result() {
+
+            var first = document.getElementById('first')
+
+            var second = document.getElementById('second')
+
+            var n1 = Number(first.value)
+
+            var n2 = Number(second.value)
+
+            var r = n1 + n2
+            
+            var res = document.getElementById('res')
+
+            res.innerText = r
+
+        }
+
+    </script>
+
+</body>
+</html>
