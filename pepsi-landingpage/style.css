@@ -31,54 +31,40 @@ nav{
     padding-top: 20px;
 }
 
-nav .logo img{
+.logo img{
     width: 90px;
 }
 
 
-nav .logo img:hover{
-    width: 120px;
-    transition: 1s;
-}
 
-nav .menu ul{
+.menu ul{
     display: flex;
     list-style: none;
 }
 
-nav .menu ul li{
+.menu ul li{
     margin-left: 80px;    
 }
 
-nav .menu ul li a{
+.menu ul li a{
     text-decoration: none;
     color: rgb(0, 0, 0);
     font-weight: 600;
 }
 
-nav .menu ul li a:hover{
-    color: aliceblue;
-    font-size: 25px;
-    transition: .5s;
-}
 
-nav .social{
+.social{
     margin-left: 50px;
 }
 
-nav .social a{
+.social a{
     margin-left: 50px;
 }
 
-nav .social a img{
+.social a img{
     width: 30px;
 }
 
-nav .social a img:hover{
-    transform: translatey(-10px);
-    width: 50px;
-    transition: .5s;
-}
 
 main{
     width: 1165px;
@@ -87,41 +73,30 @@ main{
     justify-content: space-between;
 }
 
-main .title h1{
+.title h1{
     font-size: 45px;
     padding-left: 00px;
 }
 
-main .title h1 span{
+.title h1 span{
     font-size: 50px;
     color: rgb(255, 255, 255);
     cursor: pointer;
 }
 
-main .title h1 span:hover{
-    font-size: 60px;
-    background: rgb(255, 255, 255);
-    border-radius: 24px;
-    color: rgb(0, 72, 255);
-    transition: .5s;
-}
 
-main .bigsoda{
+.bigsoda{
     padding-top: 30px;
     cursor: pointer;
     
 }
 
-main .bigsoda img{
+.bigsoda img{
     width: 237px;
 }
 
-main .bigsoda img:hover{
-    transform: translatey(-20px);
-    transition: 1s;
-}
 
-main .title a{
+.title a{
     font-size: 30px;
     background: rgb(255, 255, 255);
     border-radius: 15px;
@@ -129,28 +104,13 @@ main .title a{
     color: rgb(0, 0, 0);
 }
 
-main .title a:hover{
-    background: rgb(0, 72, 255);
-    color: rgb(0, 13, 113);
-    font-size: 40px;
-    transition: .5s;
-}
 
-footer .soda{
+.soda{
     margin-left: 570px;
     cursor: pointer;
 }
-footer .soda img{
+.soda img{
     width: 25px;
     margin-left: 20px;
 }
-
-footer .soda img:hover{
-    transform: translatey(-15px);
-    transition: 1s;
-}
-
-
-
-
 
